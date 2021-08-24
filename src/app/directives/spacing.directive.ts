@@ -27,7 +27,7 @@ export class SpacingDirective {
 
   constructor(private elRef: ElementRef) {}
 
-  private setSpacingClass(prefix: string, value: any) {
+  private setSpacingClass(prefix: string, value: GuttersSize) {
     overrideCssClass(this.elRef, new RegExp(`^${prefix}`), `${prefix}${value}`);
   }
 }

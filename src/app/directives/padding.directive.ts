@@ -91,7 +91,7 @@ export class PaddingDirective {
     this.setPaddingClass('py-', value);
   }
 
-  private setPaddingClass(prefix: string, value: any) {
+  private setPaddingClass(prefix: string, value: PaddingSize) {
     overrideCssClass(this.elRef, new RegExp(`^${prefix}`), `${prefix}${value}`);
   }
 

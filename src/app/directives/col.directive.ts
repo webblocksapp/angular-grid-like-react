@@ -38,7 +38,7 @@ export class ColDirective implements AfterContentInit {
     this.setColClass('col-xxl-', value);
   }
 
-  private setColClass(prefix: string, value: any) {
+  private setColClass(prefix: string, value: ColSize) {
     overrideCssClass(this.elRef, new RegExp(`^${prefix}`), `${prefix}${value}`);
   }
 
