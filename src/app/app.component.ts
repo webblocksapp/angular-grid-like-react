@@ -18,6 +18,13 @@ import { Component } from '@angular/core';
       >
         React Mui Like Grid
       </a>
+      <a
+        class="me-3 d-block nav-link"
+        routerLink="/react-mui-like-grid-playground"
+        routerLinkActive="active"
+      >
+        React Mui Like Grid Playground
+      </a>
     </div>
     <hr />
     <router-outlet></router-outlet>
