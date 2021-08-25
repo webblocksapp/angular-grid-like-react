@@ -20,6 +20,7 @@ import { ReactMuiLikeGridScreen } from './screens/react-mui-like-grid/react-mui-
 import { ReactMuiLikeGridPlaygroundScreen } from './screens/react-mui-like-grid-playground/react-mui-like-playground';
 import { CardAtom } from './atoms/card/card.atom';
 import { FormsModule } from '@angular/forms';
+import { NestedGridExampleScreen } from './screens/nested-grid-example/nested-grid-example.screen';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { FormsModule } from '@angular/forms';
     PaddingDirective,
     ReactMuiLikeGridPlaygroundScreen,
     CardAtom,
+    NestedGridExampleScreen,
   ],
   imports: [
     CommonModule,

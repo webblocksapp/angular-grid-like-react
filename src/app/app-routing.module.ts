@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { NestedGridExampleScreen } from './screens/nested-grid-example/nested-grid-example.screen';
 import { NormalBootstrapGridScreen } from './screens/normal-bootstrap-grid/normal-bootstrap-grid.screen';
 import { ReactMuiLikeGridPlaygroundScreen } from './screens/react-mui-like-grid-playground/react-mui-like-playground';
 import { ReactMuiLikeGridScreen } from './screens/react-mui-like-grid/react-mui-like-grid.screen';
@@ -10,6 +11,10 @@ const routes: Routes = [
   {
     path: 'react-mui-like-grid-playground',
     component: ReactMuiLikeGridPlaygroundScreen,
+  },
+  {
+    path: 'nested-grid-example',
+    component: NestedGridExampleScreen,
   },
   { path: '**', redirectTo: 'normal-bootstrap-grid' },
 ];

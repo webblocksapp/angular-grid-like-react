@@ -25,6 +25,13 @@ import { Component } from '@angular/core';
       >
         React Mui Like Grid Playground
       </a>
+      <a
+        class="me-3 d-block nav-link"
+        routerLink="/nested-grid-example"
+        routerLinkActive="active"
+      >
+        Nested Grid Example
+      </a>
     </div>
     <hr />
     <router-outlet></router-outlet>
